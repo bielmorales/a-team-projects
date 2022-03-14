@@ -47,6 +47,8 @@ function ProjectsListItem({
 
     const titleError = getProjectError('title')
 
+    // I didn't think it would be a good call to create a generic Input field to handle all form fields
+    // because of the design particularities of each field
     return (
         <div className="project-item">
             {(isEditing || project.logoURL) && (
