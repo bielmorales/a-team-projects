@@ -1,0 +1,31 @@
+/* My own tailwind :) */
+.flex {
+    display: flex;
+  }
+  
+  .h {
+    flex-direction: row;
+  }
+  
+  .v{
+    flex-direction: column;
+  }
+  
+  .c{
+    align-items: center;
+  }
+
+  .start{
+    align-items: start;
+  }
+
+  .sa {
+    align-content: space-around;
+  }
+.al-c{
+  align-content: center;
+}
+
+.sa{
+  justify-content: space-between;
+}

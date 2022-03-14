@@ -1,0 +1,18 @@
+.projects-header{
+    background-color: white;
+    padding: 8px;
+}
+
+.a-team-logo {
+    padding: 16px
+}
+
+.projects-header-edit-button{
+    width: 80px;
+    background-color: rgb(254, 99, 12);
+    padding:16px;
+    height:100%;
+    color: white;
+    margin-left: 16px;
+    font-weight: 600;
+}

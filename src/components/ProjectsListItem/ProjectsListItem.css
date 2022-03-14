@@ -1,0 +1,114 @@
+.project-item{
+    width: 400px;
+    margin: 8px;
+    position: relative;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.project-item-form{
+    height: 371px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+    font-family: Inter;
+}
+
+.project-item-logo-wrapper{
+    height:48px;
+    width:48px;
+    border-radius: 24px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.project-item-add-logo-btn{
+    padding-top:8px;
+    font-size:24px;
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.project-item-background{
+    height: 64px;
+    background-size: cover;
+    border-radius:8px 8px 0 0;
+}
+
+.project-item-title-input{
+    font-size: 20px;
+    border-bottom: 1px dashed #C0C0C0;
+    font-weight: 600;
+    padding: 20px 0px 6px;
+    margin-bottom: 6px;
+}
+
+.project-item-title-input:disabled{
+    border: none
+}
+
+.project-item-description{
+    color: #222;
+    height: 170px;
+    font-size: 17px;
+    margin-top: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border: none;
+    width: 100%;
+    border: none;
+    resize: vertical;
+    text-decoration: underline 1px dashed rgb(192, 192, 192);
+    font-style: normal;
+
+}
+
+.project-item-description:disabled{
+    text-decoration: none
+
+}
+
+.project-item-job-box{
+    /* padding:24px */
+}
+
+.project-item-job-icon{
+    padding: 4px;
+}
+
+.project-item-job-input{
+    font-size: 17px;
+    margin-top: 4px;
+    line-height: 31px;
+    margin-left: 8px;
+    text-decoration-line: underline;
+    text-decoration-color: #C0C0C0;
+    text-decoration-style: dashed;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+    
+}
+
+.project-item-job-input:disabled{
+    text-decoration: none;
+}
+
+.project-item-separator{
+    margin: 24px 0;
+}
+
+.project-item-delete{
+    width: 23px;
+    height: 23px;
+    float:right;
+}
