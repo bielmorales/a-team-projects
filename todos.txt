@@ -5,7 +5,7 @@ x Colocar loading no save e get
 x Passar as imagens pro public
 x Ver se o search nao eh melhor tirar do context
 x Botao de add background img
+x Readme
 Componentizar oq der
-Readme
 Lintar o codigo
 Retirar dependencias nao necessarias

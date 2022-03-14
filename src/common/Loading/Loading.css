@@ -1,15 +1,17 @@
-.loading-background{
+.loading-background {
     position: absolute;
-    width:100%;
-    top:0;
-    bottom:0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
     z-index: 2;
     background-color: #3434344f;
+    display: flex;
+    align-items: center;
 }
-.loading-msg{
-    padding:8px;
+.loading-msg {
+    padding: 8px;
     border-radius: 4px;
-    width:100%;
+    width: 100%;
     text-align: center;
     color: orangered;
 }
