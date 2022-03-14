@@ -10,7 +10,7 @@ interface ProjectsListProps {
 }
 
 function ProjectsList({ isEditing }:ProjectsListProps) {
-    const { projects, setProjects } = useContext(ProjectsContext)
+    const { projects, setProjects, errors } = useContext(ProjectsContext)
     const deleteProject = async (projectEid:string)=>{
         const updatedProjects = deleteProjectAction(projectEid, projects)
         setProjects(updatedProjects)
@@ -45,13 +45,13 @@ function ProjectsList({ isEditing }:ProjectsListProps) {
     return (
         <>
             <div className="title-add-project-wrapper flex sa">
-                <h2 >Projects</h2>
+                <h2>Projects</h2>
                 {renderAddNewProject()}
             </div>
             <div className="projects-list flex">
 
                 {filteredProjects.map(project=>{
-                    return <ProjectsListItem updateCurrentProject={updateCurrentProject} isEditing={isEditing} project={project} key={project.eid} deleteProject={deleteProject}/>
+                    return <ProjectsListItem errors={errors} updateCurrentProject={updateCurrentProject} isEditing={isEditing} project={project} key={project.eid} deleteProject={deleteProject}/>
                 })}
         </div>
         </>

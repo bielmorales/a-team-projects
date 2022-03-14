@@ -12,6 +12,12 @@ export type ProjectType = {
     imageURL?: string;
 }
 
+export type ProjectErrorType = {
+    projectEid: string;
+    field: string;
+    msg: string;
+  }
+
 function timeout(ms:number=200) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }

@@ -1,12 +1,19 @@
 import { createContext } from "react";
-import { ProjectType } from "../controllers/ProjectsController";
+import { ProjectErrorType, ProjectType } from "../controllers/ProjectsController";
+
+
 
 export type ProjectsContextType = {
     projects: ProjectType[];
-    setProjects:(p: ProjectType[]) => void
+    setProjects:(p: ProjectType[]) => void;
+    errors: ProjectErrorType[];
+    setErrors:(e: ProjectErrorType[]) => void;
   }
+
 
 export const ProjectsContext = createContext<ProjectsContextType>({
     setProjects: ()=>{},
-    projects: [] as ProjectType[]
+    projects: [] as ProjectType[],
+    setErrors: ()=>{},
+    errors: [] as ProjectErrorType[]
   });
