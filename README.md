@@ -1,6 +1,6 @@
 # A-team Projects
 
-A projects list that you can search, create, edit and delete a project
+A projects list that you can search, create, edit and delete a project. I recommend using yarn instead of npm to install dependencies and run the project
 
 ## Instal dependencies
 
@@ -12,8 +12,8 @@ A projects list that you can search, create, edit and delete a project
 
 ## Run (production)
 
-`yarn build && npx serve -s build`
+`yarn build && npx serve -s build` or `npm run build && npx serve -s build`
 
 ## Test
 
-Unfortunelly test is not implemented yet. I try to install cypress on my WSL Linux and I had some troubles doing that =/
+Test is not implemented yet.
