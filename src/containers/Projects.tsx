@@ -45,6 +45,7 @@ function Projects() {
         }
         setLoading(false)
     }
+    console.log("hey")
 
     return (
         <SearchContext.Provider value={{ setSearchFilter, searchFilter }}>
